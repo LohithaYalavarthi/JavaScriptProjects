@@ -1,0 +1,28 @@
+/*p {
+    color: red;
+}
+
+a {
+    color: blue;
+}
+*/
+body {
+    font-size: 14px;
+    color: navy;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #009;
+}
+h2{
+  font-size : 2em;
+}
+p{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+}
+a{
+  text-decoration: none;
+}

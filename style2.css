@@ -1,0 +1,22 @@
+p{
+ /*text-indent: inherit;*/
+ line-height: normal;
+ text-align: center;
+ letter-spacing: normal;
+ word-spacing: normal;
+}
+h2{
+  font-size: 2.5em;
+  background-color: #ccc;
+  margin:20px;
+  padding: 80px;
+}
+h3{
+  border-width: 5px;
+  border-style: solid;
+  border-right-width: 5px;
+  border-left-width: 5px;
+  border-color: navy;
+  border-spacing: 20px;
+  padding: 20px;
+}
