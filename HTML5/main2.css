@@ -1,0 +1,13 @@
+#nav_items li{
+	display: inline-block;
+	padding: 2px;
+}
+.crumb a::after{
+	content: ">";
+	padding: 0 2px;
+	color: #000;
+	font-size: 80%;
+	font-weight: bold;
+	display: inline-block;
+
+}

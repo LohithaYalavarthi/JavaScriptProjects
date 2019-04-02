@@ -1,0 +1,12 @@
+var b= [2,4,5,6];
+console.log(...b); -Spreads out // 2 4 5 6
+Spread operator works only for the Iterator fns 
+var b ={ firstname : "lohi", lastname: "yala",age : 30}
+console.log(...b)
+
+function name(a,b){
+return a*b;
+
+}
+var v =[2,3,4]
+name(v);

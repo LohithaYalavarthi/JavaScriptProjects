@@ -1,0 +1,149 @@
+	body{
+		font-family: 15px/1.5 Arial ,Helvetica,sans-serif;
+		padding:0;
+		margin:0;
+		background-color:#f4f4f4;
+		text-decoration: none;
+	}
+body a{
+	text-decoration: none;
+}
+	.container{
+		width: 80%;
+	    margin: auto;
+	    overflow: hidden;
+	    color: black;
+	    text-decoration: none;
+
+	}
+
+	div  h1 {
+		text-decoration : none;
+	}
+
+	header{
+		background: #35424a;
+		color:#ffffff;	
+		padding-top: 30px;
+		min-height: 70px;
+		border-bottom: #08491d 3px solid;
+	}
+	header a{
+		color:#ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+	header ul{
+		margin: 0;
+		padding : 0;
+	}
+	header li{
+			float: left;
+			display: inline;
+			padding : 0 20px 0 20px;
+
+	}
+	header #branding h1{
+		margin:0;
+		display: inline;
+	}
+
+	header nav{
+		float: right;
+		margin-top: 10px;
+
+	}
+	#branding{
+		display: inline;
+	}
+	header .highlight,  .current a{
+		color: #e8491d;
+		font-weight: bold;
+	}
+
+	header a:hover{
+		color: #cccccc;
+		font-weight: bold;
+	}
+
+	/*	Shpw Case */
+	#showcase{
+		min-height: 400px;
+		background :url('../show.jpg') no-repeat 0 ;
+=		text-align: center;
+        color: #ffffff;
+	}
+
+	#showcase h1{
+		margin-top: 100px;	
+		font-size: 55px;
+		margin-bottom: 10px;
+	}
+	#showcase p{
+     font-size: 20px;
+	}
+
+	#newsletter{
+		padding :15px;
+		color: #ffffff;
+	}
+	#newsletter h1{
+	 float: left;
+	}
+	#newsletter form{
+		float: right;
+		margin-top: 15px;
+	}
+	#newsletter input[type="email"]{
+     padding : 4px;
+     height: 25px;
+     width:  250px;
+	}
+	/*Media Queries*/
+	@media(max-width : 768px){
+		header #branding, header nav,header nav li{
+          float: none;
+          text-align: center;
+          width:100%;
+		}
+		header nav li {
+			position: relative;
+		}
+		header{
+			padding-bottom: 10px;
+		}
+	}
+	#leftbox{
+		float: left;
+		width :250px;
+		height: 250px;
+		margin: 5px;
+		border: 3px solid blue;
+	}
+	#rightbox{
+		float: left;
+		width :250px;
+		height: 250px;
+		margin: 5px;
+		border: 3px solid green		;
+	}
+	details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}

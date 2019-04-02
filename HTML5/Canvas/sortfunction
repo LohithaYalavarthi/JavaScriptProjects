@@ -1,0 +1,26 @@
+function Comparefunction(a,b){
+	var f =""+ a + b ;
+	var S ="" + b + a ;
+	console.log(f,S)
+	return f>S ? -1: 1
+}
+
+var arr = [546,60]
+var t= arr.sort(Comparefunction).join("")
+
+function sortArray(arr){
+    arr.sort(function compare(first,second) {
+        var firstsecond ='' + first + second;
+        var secondfirst ='' + second + first;
+        return firstsecond>secondfirst ? -1:1;
+    })
+}
+
+function getLargestNumber(arr){
+    var largestNumber = arr.join('')
+    return largestNumber
+}
+var arr = [546,60]
+sortArray(arr)
+var result = getLargestNumber(arr)
+alert(result)

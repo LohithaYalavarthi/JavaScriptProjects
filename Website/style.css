@@ -1,0 +1,15 @@
+#site-logo a{
+  float: left;
+  font-size: larger;
+  width: 180px;
+  margin: 10px;
+  color: blue;
+}
+ul li {
+display:inline;
+ margin :30px;
+position: relative;
+}
+a{
+  text-decoration: none;
+}

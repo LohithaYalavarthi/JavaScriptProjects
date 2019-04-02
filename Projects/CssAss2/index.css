@@ -1,0 +1,22 @@
+.box-style{
+  padding: 10px 20px 30px 40px;
+  border : 5px solid salmon;
+  margin : 10px 20px 30px 40px;
+  height :300px;
+  width :39%;
+  box-sizing : border-box;
+  display: inline-block;
+  margin:0;
+}
+html,body{
+  height : 100%;
+
+}
+
+body div{
+  display: inline-block;
+}
+ div:last-of-type:hover{
+  background: lightblue;
+  border-color:green;
+}
